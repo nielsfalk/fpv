@@ -8,7 +8,7 @@ this repo is used to keep track of my betaflight settings
 ```
 # dump
 # Betaflight / OMNIBUS (OMNI) 3.2.2 Nov 11 2017 / 00:38:45 (77782e602) MSP API: 1.36
-name BFight 210
+name falcon
 resource BEEPER 1 C15
 resource MOTOR 1 B08
 resource MOTOR 2 B09
@@ -126,9 +126,8 @@ feature -ESC_SENSOR
 feature -ANTI_GRAVITY
 feature -DYNAMIC_FILTER
 feature RX_SERIAL
-feature MOTOR_STOP
-feature LED_STRIP
 feature OSD
+feature AIRMODE
 beeper GYRO_CALIBRATED
 beeper RX_LOST
 beeper RX_LOST_LANDING
@@ -249,10 +248,10 @@ mode_color 6 8 0
 mode_color 6 9 0
 mode_color 6 10 0
 mode_color 7 0 3
-aux 0 0 2 1350 2100
+aux 0 0 0 1350 2100
 aux 1 1 1 900 1300
-aux 2 0 0 900 900
-aux 3 0 0 900 900
+aux 2 2 1 1325 1700
+aux 3 13 2 1300 2100
 aux 4 0 0 900 900
 aux 5 0 0 900 900
 aux 6 0 0 900 900
@@ -428,7 +427,7 @@ set accz_deadband = 40
 set acc_unarmedcal = ON
 set imu_dcm_kp = 2500
 set imu_dcm_ki = 0
-set small_angle = 25
+set small_angle = 180
 set auto_disarm_delay = 5
 set disarm_kill_switch = ON
 set gyro_cal_on_first_arm = OFF
