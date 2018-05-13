@@ -252,7 +252,7 @@ aux 0 0 0 1350 2100
 aux 1 1 1 900 1300
 aux 2 2 1 1325 1700
 aux 3 13 2 1300 2100
-aux 4 0 0 900 900
+aux 4 35 5 1725 2100
 aux 5 0 0 900 900
 aux 6 0 0 900 900
 aux 7 0 0 900 900
@@ -456,18 +456,18 @@ set osd_cap_alarm = 2200
 set osd_alt_alarm = 100
 set osd_ah_max_pit = 20
 set osd_ah_max_rol = 40
-set osd_tim1 = 2560
+set osd_tim1 = 1537
 set osd_tim2 = 2561
 set osd_vbat_pos = 2433
 set osd_rssi_pos = 22
-set osd_tim_1_pos = 54
+set osd_tim_1_pos = 2422
 set osd_tim_2_pos = 33
 set osd_flymode_pos = 2456
 set osd_throttle_pos = 129
 set osd_vtx_channel_pos = 200
 set osd_crosshairs = 0
 set osd_ah_sbar = 200
-set osd_ah_pos = 2248
+set osd_ah_pos = 200
 set osd_current_pos = 97
 set osd_mah_drawn_pos = 111
 set osd_craft_name_pos = 2049
@@ -585,8 +585,8 @@ set rc_rate = 100
 set rc_rate_yaw = 100
 set rc_expo = 0
 set rc_expo_yaw = 0
-set thr_mid = 50
-set thr_expo = 0
+set thr_mid = 25
+set thr_expo = 69
 set roll_srate = 70
 set pitch_srate = 70
 set yaw_srate = 70
