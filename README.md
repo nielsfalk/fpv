@@ -252,7 +252,7 @@ aux 0 0 0 1350 2100
 aux 1 1 1 900 1300
 aux 2 2 1 1325 1700
 aux 3 13 2 1300 2100
-aux 4 0 0 900 900
+aux 4 35 5 1725 2100
 aux 5 0 0 900 900
 aux 6 0 0 900 900
 aux 7 0 0 900 900
@@ -427,7 +427,7 @@ set accz_deadband = 40
 set acc_unarmedcal = ON
 set imu_dcm_kp = 2500
 set imu_dcm_ki = 0
-set small_angle = 180
+set small_angle = 25
 set auto_disarm_delay = 5
 set disarm_kill_switch = ON
 set gyro_cal_on_first_arm = OFF
@@ -451,16 +451,16 @@ set pid_in_tlm = OFF
 set ledstrip_visual_beeper = OFF
 set sdcard_dma = OFF
 set osd_units = METRIC
-set osd_rssi_alarm = 20
+set osd_rssi_alarm = 45
 set osd_cap_alarm = 2200
 set osd_alt_alarm = 100
 set osd_ah_max_pit = 20
 set osd_ah_max_rol = 40
-set osd_tim1 = 2560
+set osd_tim1 = 1537
 set osd_tim2 = 2561
 set osd_vbat_pos = 2433
 set osd_rssi_pos = 22
-set osd_tim_1_pos = 54
+set osd_tim_1_pos = 2422
 set osd_tim_2_pos = 33
 set osd_flymode_pos = 2456
 set osd_throttle_pos = 129
@@ -478,7 +478,7 @@ set osd_gps_sats_pos = 386
 set osd_home_dir_pos = 302
 set osd_home_dist_pos = 303
 set osd_compass_bar_pos = 266
-set osd_altitude_pos = 2070
+set osd_altitude_pos = 22
 set osd_pid_roll_pos = 322
 set osd_pid_pitch_pos = 354
 set osd_pid_yaw_pos = 386
@@ -486,7 +486,7 @@ set osd_debug_pos = 1
 set osd_power_pos = 47
 set osd_pidrate_profile_pos = 418
 set osd_warnings_pos = 329
-set osd_avg_cell_voltage_pos = 76
+set osd_avg_cell_voltage_pos = 2401
 set osd_pit_ang_pos = 257
 set osd_rol_ang_pos = 289
 set osd_battery_usage_pos = 392
@@ -503,7 +503,7 @@ set osd_stat_max_curr = ON
 set osd_stat_used_mah = ON
 set osd_stat_max_alt = OFF
 set osd_stat_bbox = ON
-set osd_stat_endbatt = OFF
+set osd_stat_endbatt = ON
 set osd_stat_bb_no = ON
 set osd_stat_tim_1 = OFF
 set osd_stat_tim_2 = ON
@@ -511,7 +511,7 @@ set task_statistics = ON
 set debug_mode = NONE
 set pwr_on_arm_grace = 0
 set vtx_halfduplex = ON
-set vcd_video_system = 0
+set vcd_video_system = 2
 set vcd_h_offset = 0
 set vcd_v_offset = 0
 set max7456_clock = DEFAULT
@@ -585,8 +585,8 @@ set rc_rate = 100
 set rc_rate_yaw = 100
 set rc_expo = 0
 set rc_expo_yaw = 0
-set thr_mid = 50
-set thr_expo = 0
+set thr_mid = 25
+set thr_expo = 69
 set roll_srate = 70
 set pitch_srate = 70
 set yaw_srate = 70
