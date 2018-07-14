@@ -5,38 +5,6 @@ this repo is used to keep track of my betaflight settings
 
 ## betaflight dump
 ```
-2018-07-13 @ 21:15:08 -- Running - OS: MacOS, Chrome: 67.0.3396.99, Configurator: 10.2.0
-
-2018-07-13 @ 21:15:09 -- Loaded release information for configurator from GitHub.
-
-2018-07-13 @ 21:15:09 -- You are using an outdated version of the Betaflight Configurator.
-Version 10.3.1 is available online, please visit the release page to download and install the latest version with fixes and improvements.
-Please close the configurator window before updating.
-
-2018-07-13 @ 21:15:19 -- Serial port successfully opened with ID: 1
-
-2018-07-13 @ 21:15:19 -- MultiWii API version: 1.37.0
-
-2018-07-13 @ 21:15:20 -- Flight controller info, identifier: BTFL, version: 3.3.0
-
-2018-07-13 @ 21:15:20 -- Running firmware released on: Mar 2 2018 03:41:45
-
-2018-07-13 @ 21:15:20 -- Board: DYS4, version: 0
-
-2018-07-13 @ 21:15:20 -- Unique device ID: 0x1b002e3037471032383533
-
-2018-07-13 @ 21:15:20 -- Craft name:
-
-2018-07-13 @ 21:15:20 -- Arming Disabled
-
-2018-07-13 @ 21:15:38 -- Accelerometer calibration started
-
-2018-07-13 @ 21:15:40 -- Accelerometer calibration finished
-
-2018-07-13 @ 21:15:48 -- CLI mode detected
-
-
-
 Entering CLI Mode, type 'exit' to return, or 'help'
 
 # dump
@@ -45,7 +13,7 @@ Entering CLI Mode, type 'exit' to return, or 'help'
 # Betaflight / DYSF4PRO (DYS4) 3.3.0 Mar  2 2018 / 03:41:45 (177472b4f) MSP API: 1.37
 
 # name
-name -
+name ghost
 
 # resources
 resource BEEPER 1 B04
@@ -196,6 +164,7 @@ feature -DYNAMIC_FILTER
 feature RX_SERIAL
 feature LED_STRIP
 feature OSD
+feature AIRMODE
 
 # beeper
 beeper GYRO_CALIBRATED
@@ -334,9 +303,9 @@ mode_color 7 0 3
 
 # aux
 aux 0 0 0 1525 2100 0
-aux 1 1 1 900 1475 0
-aux 2 0 0 900 900 0
-aux 3 0 0 900 900 0
+aux 1 1 1 900 1325 0
+aux 2 2 1 1300 1700 0
+aux 3 13 2 1300 2100 0
 aux 4 0 0 900 900 0
 aux 5 0 0 900 900 0
 aux 6 0 0 900 900 0
@@ -427,7 +396,7 @@ set align_acc = DEFAULT
 set acc_hardware = AUTO
 set acc_lpf_hz = 10
 set acc_trim_pitch = 0
-set acc_trim_roll = 0
+set acc_trim_roll = 2
 set align_mag = DEFAULT
 set mag_bustype = I2C
 set mag_i2c_device = 2
@@ -515,7 +484,7 @@ set beeper_inversion = ON
 set beeper_od = OFF
 set beeper_frequency = 0
 set beeper_dshot_beacon_tone = 0
-set yaw_motors_reversed = OFF
+set yaw_motors_reversed = ON
 set 3d_deadband_low = 1406
 set 3d_deadband_high = 1514
 set 3d_neutral = 1460
@@ -533,7 +502,7 @@ set accz_deadband = 40
 set acc_unarmedcal = ON
 set imu_dcm_kp = 2500
 set imu_dcm_ki = 0
-set small_angle = 25
+set small_angle = 26
 set auto_disarm_delay = 5
 set gyro_cal_on_first_arm = OFF
 set gps_provider = NMEA
