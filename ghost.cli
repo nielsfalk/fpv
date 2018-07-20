@@ -175,7 +175,7 @@ beeper MULTI_BEEPS
 beeper DISARM_REPEAT
 beeper ARMED
 beeper SYSTEM_INIT
-beeper ON_USB
+beeper -ON_USB
 beeper BLACKBOX_ERASE
 beeper CRASH FLIP
 beeper CAM_CONNECTION_OPEN
@@ -703,4 +703,3 @@ set pitch_srate = 70
 set yaw_srate = 70
 set tpa_rate = 10
 set tpa_breakpoint = 1650
-# 
