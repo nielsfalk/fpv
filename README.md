@@ -2,6 +2,7 @@
 this repo is used to keep track of my betaflight settings
 
 ## ghost (Japalura split)
+![Japalura](img/japalura.jpg)
 [Betaflight cli](ghost.cli)
 
 ## falcon (bFight210)
